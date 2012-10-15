@@ -7,10 +7,8 @@ class TestRadio < Test::Unit::TestCase
 
 
    def test_simple
-      assert_equal(1, Radio.new(2).calcularradio())
-      assert_equal(50, Radio.new(100).calcularradio())
+      assert_equal(15, Radio.new(94.2).calcularradio())
       assert_equal(0, Radio.new(0).calcularradio())
-      assert_in_delta(10.5, 21, 11) 
       assert_in_delta(9, 21, 11,"Error con el decimal obtenido")
 
    end

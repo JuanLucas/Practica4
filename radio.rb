@@ -14,7 +14,7 @@ class Radio
   end
  
   def calcularradio( )
-     @x/2
+     @x/6.28
   end
  
 end
